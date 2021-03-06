@@ -1,0 +1,36 @@
+
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.kkdroid.git" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SampleAppCordova</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <!-- Branch -->
+      <plugin name="branch-cordova-sdk" spec="^4.0.0" />
+      <branch-config>
+        <branch-key value="key_live_ndqptlgXNE4LHqIahH1WIpbiyFlb62J3" />
+        <uri-scheme value="branchcordova" />
+        <link-domain value="cordova.app.link" />  <!-- Required app.link domain -->
+        <link-domain value="cordova-alternate.app.link" />  <!-- Required alternate.app.link domain -->
+        <ios-team-release value="PW4Q8885U7" />
+      </branch-config>
+       <preference name="AndroidXEnabled" value="true" />
+</widget>
