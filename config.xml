@@ -26,7 +26,7 @@
     <!-- Branch -->
       <plugin name="branch-cordova-sdk" spec="^4.0.0" />
       <branch-config>
-        <branch-key value="key_live_ndqptlgXNE4LHqIahH1WIpbiyFlb62J3" />
+        <branch-key value="key_live_xxxxx" />
         <uri-scheme value="branchcordova" />
         <link-domain value="cordova.app.link" />  <!-- Required app.link domain -->
         <link-domain value="cordova-alternate.app.link" />  <!-- Required alternate.app.link domain -->
